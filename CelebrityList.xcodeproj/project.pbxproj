@@ -12,6 +12,10 @@
 		89DB63EE1E23795500B65F93 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89DB63EC1E23795500B65F93 /* Main.storyboard */; };
 		89DB63F01E23795500B65F93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89DB63EF1E23795500B65F93 /* Assets.xcassets */; };
 		89DB63F31E23795500B65F93 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89DB63F11E23795500B65F93 /* LaunchScreen.storyboard */; };
+		89DB63FB1E2383DE00B65F93 /* CelebrityTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89DB63FA1E2383DE00B65F93 /* CelebrityTableViewController.swift */; };
+		89DB63FD1E23850200B65F93 /* AddCelebrityTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89DB63FC1E23850200B65F93 /* AddCelebrityTableViewController.swift */; };
+		89DB63FF1E2386A200B65F93 /* CelebrityTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89DB63FE1E2386A200B65F93 /* CelebrityTableViewCell.swift */; };
+		89DB64011E2387A300B65F93 /* CelebrityDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89DB64001E2387A300B65F93 /* CelebrityDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		89DB63EF1E23795500B65F93 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		89DB63F21E23795500B65F93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89DB63F41E23795500B65F93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89DB63FA1E2383DE00B65F93 /* CelebrityTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CelebrityTableViewController.swift; sourceTree = "<group>"; };
+		89DB63FC1E23850200B65F93 /* AddCelebrityTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddCelebrityTableViewController.swift; sourceTree = "<group>"; };
+		89DB63FE1E2386A200B65F93 /* CelebrityTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CelebrityTableViewCell.swift; sourceTree = "<group>"; };
+		89DB64001E2387A300B65F93 /* CelebrityDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CelebrityDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +68,10 @@
 				89DB63EF1E23795500B65F93 /* Assets.xcassets */,
 				89DB63F11E23795500B65F93 /* LaunchScreen.storyboard */,
 				89DB63F41E23795500B65F93 /* Info.plist */,
+				89DB63FA1E2383DE00B65F93 /* CelebrityTableViewController.swift */,
+				89DB63FC1E23850200B65F93 /* AddCelebrityTableViewController.swift */,
+				89DB63FE1E2386A200B65F93 /* CelebrityTableViewCell.swift */,
+				89DB64001E2387A300B65F93 /* CelebrityDetailViewController.swift */,
 			);
 			path = CelebrityList;
 			sourceTree = "<group>";
@@ -139,6 +151,10 @@
 			files = (
 				89DB63EB1E23795500B65F93 /* ViewController.swift in Sources */,
 				89DB63E91E23795500B65F93 /* AppDelegate.swift in Sources */,
+				89DB63FB1E2383DE00B65F93 /* CelebrityTableViewController.swift in Sources */,
+				89DB63FF1E2386A200B65F93 /* CelebrityTableViewCell.swift in Sources */,
+				89DB63FD1E23850200B65F93 /* AddCelebrityTableViewController.swift in Sources */,
+				89DB64011E2387A300B65F93 /* CelebrityDetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
